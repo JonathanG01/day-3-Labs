@@ -17,9 +17,11 @@ public class Converter{
 		int miles = scan.nextInt(); milesToKm(miles,1.61); break;
 		case 3:  System.out.println("choose how many centimeters you want to convert: ");
 		int cm = scan.nextInt(); cmToMeters(cm, .01); break;		
-		case 4: System.out.println("you have exited the program!");break;
+		case 4: System.out.println("you have exited the program!")
 		}
 		
+		System.out.println("you're back to first menu, pick another option.");
+		menuSelection = scan.nextInt();
 
 	}
 		
